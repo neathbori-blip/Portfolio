@@ -5,9 +5,9 @@ body{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        background-color: #cf3216;
+        background-color:#1d1716 ;
         font-family: "Lato", sans-serif;
-        /* font-family: "Montserrat", sans-serif; */
+        /* font-family: "Montserrat#", sans-serif; */
 }
 
 nav{ 
@@ -45,7 +45,7 @@ nav{
         align-items: center;
         justify-content: right;
 }
-.menu ul{ 
+.menu ul{        
         margin: 0;
         padding: 0;
         list-style: none;
@@ -74,7 +74,7 @@ nav{
         border-radius: 30px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: center;       
         align-items: center;
         text-align: center;
 }
@@ -86,7 +86,7 @@ nav{
         background-color: pink;
         border-radius: 50%;
 }
-.image-hero srgbimg {
+.image-hero img {
         width: 100%;
         
  }
@@ -124,6 +124,10 @@ nav{
         border-radius: 30px;
         text-decoration: none;
  }
+
+ .top a:hover { 
+        color: #393e46;
+ }
  
 
 .btn{ 
@@ -156,6 +160,10 @@ nav{
         padding: 10px 40px;
         border-radius: 100px;
         text-decoration: none;
+}
+
+.about-section a:hover { 
+        background-color: #393e46;
 }
 .about-section p{ 
         font-size: 18px;
@@ -215,24 +223,152 @@ nav{
         width: 1200px;
         height: 1000px;
         overflow: hidden;
-        background-color:rgb(218, 46, 74);
         display: flex;
+        gap: 50px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         position: relative;
 }
 .u{ 
-        width: 376px;
-        height: 186px;
+        width: 390px;
+        height: 190px;
         border: 1px solid #393e46;
+        border-radius: 20px;
         position: absolute;
-        top: 150px;
+        top: 120px;
         right: 100px;
         margin: auto;
 }
       
+.u h1{
+        font-size: 32px;
+        font-family: "Montserrat", sans-serif;
+        color: #091DAF;
+        margin-left: 10px;
+}
+.u p{ 
+        font-size: 18px;
+        color: #ffffff;
+        margin-left: 10px;
+}
+.are{  width: 380px;
+        height: 200px;
+        border: 1px solid #393e46;
+        border-radius: 20px;
+        position: absolute;
+        top: 350px;
+        left: 100px;
+        margin: auto;
+}
+.are h1{
+        font-family: montserrat, sans-serif;
+        color: #091DAF;
+        font-size: 32px;
+        margin: 10px;
+}
 
 
+.are p{ 
+        font-size: 18px;
+        color: #ffffff;
+        margin-left: 10px;
+}
+
+.teacher{ 
+         width: 380px;
+        height: 210px;
+        border: 1px solid #393e46;
+        border-radius: 20px;
+        position: absolute;
+        top: 650px;
+        right: 100px;
+        margin: auto;
+}
+.teacher h1{ 
+        font-family: montserrat,sans-serif;
+        font-size: 32px;
+        color: #091DAF;
+        margin-left: 10px;
+
+}
+
+.teacher p{ 
+        font-size: 18px;
+        color: #ffffff;
+        margin-left: 10px;
+}
+
+.mi{ 
+        width: 1200px;
+        height: 700px;
+        display: block;
+        background-color: rgb(223, 109, 128);
+
+}
 
 
+.sk { 
+        width: 100%;
+        height: 100px;
+        background-color: #FF2525;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+}
+
+.sk h1{ 
+         font-family: "Montserrat", sans-serif;
+        font-size: 32px;
+        color: #ffffff;
+        background-color: #091DAF;
+        padding: 10px 40px;
+        border-radius: 100px;
+        text-decoration: none;
+        
+}
+
+.pho{ 
+        width: 100%;
+        height: 600px;
+        display:flex;
+        background-color: darkgoldenrod;
+}
+
+.nic{ 
+        width: 600px;
+        height: 600px;
+        background-color: #1900ff;
+}
+
+.cold{ 
+        width:600px;
+        height: 600px;
+        background-color: rgb(255, 0, 0);
+        display: block;
+}
+.uu{ 
+        width: 100%;
+        height: 50%;  
+        background-color: #b8b8b8;
+}
+
+.meme{ 
+        width: 100%;
+        height: 50%;
+        background-color: #333;
+}
+
+.bod{ 
+        width: 50%;
+        height: 100%;
+        background-color: brown;
+}
+
+.hi{ 
+          width: 300px;
+          height: 300px;
+          background-color: #f02704;
+}

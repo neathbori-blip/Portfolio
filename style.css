@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.html{ 
+        scroll-behavior: smooth;
+        scroll: padding 90px;;
+        
+}
 
 body{ 
         max-width: 100%;
@@ -695,7 +700,7 @@ nav{
 
 .contact-content{ 
         width: 100%;
-        height: 1100px;
+        height: 800px;
         display: flex;
         gap: 40px;
      
@@ -780,10 +785,49 @@ nav{
         align-items: center;
 }
 
+
 .content-form{ 
-        width: ;
+        width: 535px;
+        height: 400px;
+        border: 1px solid #393e46;
+        border-radius: 20px;
+}
+
+
+
+.fill-in h2{ 
+        font-family: "Montserrat"sans-serif;
+        color: #ffffff;
+}
+ 
+.fill-in input{ 
+        padding: 20px;
+
+}
+ .fill-in label{ 
+        color: #ffffff;
+        margin-right: 150px;
+        
+ }
+
+.fill-in small{ 
+        margin-top: 50%;
+        
         
 }
+
+ 
+
+.footer{ 
+        width: 1200px;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center      ;
+        border: 1px solid #393e46;
+}
+
 
 
 
